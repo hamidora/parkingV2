@@ -10,7 +10,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:896204945282:android:4dc6c53dd4a3e1d775019b",
         "android_client_info": {
-          "package_name": "om.example.parkingv2"
+          "package_name": "com.example.parkingv2"
         }
       },
       "oauth_client": [
@@ -18,7 +18,7 @@
           "client_id": "896204945282-m46ph4kgso8386ouhgtrndjne9h5iivk.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "om.example.parkingv2",
+            "package_name": "com.example.parkingv2",
             "certificate_hash": "f70b915cbcaaf92882cdaf508e0034fc2571fd11"
           }
         },
