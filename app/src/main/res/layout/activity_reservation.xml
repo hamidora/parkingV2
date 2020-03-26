@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/back"
+    android:background="@color/maron"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_envoyer"
+        android:layout_width="300dp"
+        android:layout_height="47dp"
+        android:background="@color/colorAccent"
+        android:text="@string/btn_send"
+        android:textColor="@android:color/black"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="586dp" />
+
+    <EditText
+        android:id="@+id/idC"
+        android:layout_width="354dp"
+        android:layout_height="46dp"
+        android:autofillHints=""
+        android:hint="@string/Matricule"
+        android:inputType="text"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="96dp" />
+
+    <EditText
+        android:id="@+id/preC"
+        android:layout_width="354dp"
+        android:layout_height="46dp"
+        android:autofillHints=""
+        android:hint="@string/prenomC"
+        android:inputType="textEmailAddress"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="183dp" />
+
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="326dp"
+        android:layout_height="46dp"
+        android:background="@color/colorAccent"
+        android:entries="@array/grade"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="432dp" />
+
+    <Spinner
+        android:id="@+id/spinnerV"
+        android:layout_width="326dp"
+        android:layout_height="46dp"
+        android:background="@color/colorAccent"
+        android:entries="@array/grade"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="505dp" />
+
+    <EditText
+        android:id="@+id/nomC"
+        android:layout_width="354dp"
+        android:layout_height="46dp"
+        android:autofillHints=""
+        android:hint="@string/nomC"
+        android:inputType="textEmailAddress"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="272dp" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center|bottom"
+        android:visibility="gone"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="354dp"
+
+        android:layout_height="46dp"
+        android:autofillHints=""
+        android:hint="@string/numtel"
+        android:inputType="number|phone"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="360dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="225dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="24dp"
+        android:textSize="20sp"
+        android:text="@string/reserveVoiture"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

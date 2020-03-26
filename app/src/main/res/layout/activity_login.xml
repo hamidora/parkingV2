@@ -17,14 +17,13 @@
 
 
         <ImageView
-            android:layout_width="@dimen/logo_w_h"
-            android:layout_height="@dimen/logo_w_h"
+            android:layout_width="59dp"
+            android:layout_height="65dp"
             android:layout_gravity="center_horizontal"
             android:layout_marginBottom="30dp"
-            android:src="@mipmap/ic_launch_gct_foreground"
             android:contentDescription=""
+            android:src="@mipmap/ic_launch_gct_foreground"
             tools:ignore="ContentDescription" />
-
 
         <EditText
             android:id="@+id/email"
@@ -35,7 +34,6 @@
             android:inputType="textEmailAddress"
             android:textColor="@android:color/white"
             android:textColorHint="@android:color/white" />
-
 
 
         <EditText
